@@ -22,7 +22,7 @@ async function bootstrap() {
     /*{
       origin: 'https://pepe.com',
     }*/
-  app.setGlobalPrefix('')
+  app.setGlobalPrefix('apinestjs')
   await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
